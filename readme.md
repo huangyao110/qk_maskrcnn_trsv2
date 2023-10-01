@@ -8,7 +8,7 @@
 ## **项目实现了2种类型的气孔分类模型**；
 -----
 1.基于甜瓜气孔图片的Mask R-CNN模型，-->提取气孔参数（气孔面积、气孔直径、短径、周长、离心率、每张图片上的气孔数量）--> 然后送入随机森林模型中进行分类；
-![Alt text](tunihe-1.png)
+![椭圆拟合](tunihe-1.png)
 2.基于甜瓜气孔图片的resnet34、resnet50、vgg16、MobileNetV3_Large、efficientnet_b0分类模型；
 ## 目录简介；
 1. ----class_model----:分类模型的构建
